@@ -1,5 +1,4 @@
 /*Constants*/
-/*Text*/
 .body__background {
   background-color: black; }
 
@@ -17,6 +16,26 @@
 .title {
   color: #C7B58A; }
 
+.footer__font {
+  color: white; }
+
+.menu-style {
+  position: sticky; }
+
+.banner {
+  position: relative;
+  width: 100%;
+  height: 40vh;
+  background: url(media/images/rectangle1.png);
+  background-image: url(media/images/rectangle1.png);
+  background-size: cover; }
+
+.flexSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; }
+
 img {
   opacity: 0.86; }
 
@@ -33,4 +52,10 @@ a {
     padding-left: 100px; }
   .card__margin {
     margin-top: 0px;
-    margin-bottom: 0px; } }
+    margin-bottom: 0px; }
+  .alignment {
+    float: left;
+    text-align: left; }
+  .banner__margin {
+    margin-top: 50px;
+    margin-bottom: 50px; } }
